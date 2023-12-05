@@ -1,0 +1,22 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app"></div>
+  <div id="app03"></div>
+  <div id="app02"></div>
+  <script src="models.js"></script>
+  <script src="views.js"></script>
+  <script src="controllers.js"></script>
+  <script>
+    // 在載入 controllers.js 之後初始化 TodoController
+    const controller = new TodoController();
+  </script>
+</body>
+</html>

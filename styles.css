@@ -1,0 +1,13 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#app {
+  margin-top: 20px;
+}
+
+button {
+  margin-left: 10px;
+}
